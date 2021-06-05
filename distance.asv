@@ -1,0 +1,11 @@
+function [output] = distance(inputArg1,i1,i2)
+image = inputArg1;
+c1 = i1;
+c2 = i2;
+res = c2 - c1;
+if(res<0)
+    res = res*-1;
+end
+output = res;
+end
+
